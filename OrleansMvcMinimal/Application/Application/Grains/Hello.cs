@@ -7,7 +7,7 @@ namespace Application.Grains
     {
         public Task<string> SayHello(string greeting)
         {
-            return Task.FromResult($"\n Client said: '{greeting}', so Hello grain says: Hello!");
+            return Task.FromResult($"Grain client said: '{greeting}', so Hello grain says: Hello!");
         }
     }
 }

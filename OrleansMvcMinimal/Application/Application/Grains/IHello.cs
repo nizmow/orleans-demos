@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Orleans;
 
-namespace Application.Grains 
+namespace Application.Grains
 {
     public interface IHello : IGrainWithIntegerKey
     {
